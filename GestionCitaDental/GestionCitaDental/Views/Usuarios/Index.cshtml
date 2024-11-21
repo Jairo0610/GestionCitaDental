@@ -13,16 +13,16 @@
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.Usuario)
+                NOMBRE DE USUARIO
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Contraseña)
+                CONTRASEÑA
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.IdCorreoNavigation)
+                CORREO
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.IdTipoUsuarioNavigation)
+                TIPO DE USUARIO
             </th>
             <th></th>
         </tr>
@@ -37,10 +37,10 @@
                 @Html.DisplayFor(modelItem => item.Contraseña)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.IdCorreoNavigation.IdCorreo)
+                @Html.DisplayFor(modelItem => item.IdCorreoNavigation.Correo)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.IdTipoUsuarioNavigation.IdTipoUsuario)
+                @Html.DisplayFor(modelItem => item.IdTipoUsuarioNavigation.Descripcion)
             </td>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.IdUsuario">Edit</a> |

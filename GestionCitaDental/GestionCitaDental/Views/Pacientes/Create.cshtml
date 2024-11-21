@@ -13,28 +13,29 @@
         <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
-                <label asp-for="Nombre" class="control-label"></label>
+                <label class="control-label">NOMBRE</label>
                 <input asp-for="Nombre" class="form-control" />
                 <span asp-validation-for="Nombre" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Telefono" class="control-label"></label>
+                <label class="control-label">TELEFONO</label>
                 <input asp-for="Telefono" class="form-control" />
                 <span asp-validation-for="Telefono" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Direccion" class="control-label"></label>
+                <label class="control-label">DIRECCION</label>
                 <input asp-for="Direccion" class="form-control" />
                 <span asp-validation-for="Direccion" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Dui" class="control-label"></label>
+                <label class="control-label">DUI</label>
                 <input asp-for="Dui" class="form-control" />
                 <span asp-validation-for="Dui" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="IdCorreo" class="control-label"></label>
-                <select asp-for="IdCorreo" class ="form-control" asp-items="ViewBag.IdCorreo"></select>
+                <label class="control-label">CORREO</label>
+                <input asp-for="IdCorreoNavigation.Correo" class="form-control" />
+                <span asp-validation-for="IdCorreoNavigation.Correo" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-primary" />

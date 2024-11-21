@@ -13,19 +13,22 @@
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.FechaCita)
+                FECHA
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.IdEstadoNavigation)
+                ESTADO DE CITA
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.IdOdontologoNavigation)
+                DOCTOR
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.IdPacienteNavigation)
+                PACIENTE
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.IdProcesoNavigation)
+                PROCESO
+            </th>
+            <th>
+                COSTO
             </th>
             <th></th>
         </tr>
@@ -34,20 +37,23 @@
 @foreach (var item in Model) {
         <tr>
             <td>
-                @Html.DisplayFor(modelItem => item.FechaCita)
+                @Html.DisplayFor(modelItem => item.Fecha)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.IdEstadoNavigation.IdEstadoCita)
+                @Html.DisplayFor(modelItem => item.IdEstadoCitaNavigation.Descripcion)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.IdOdontologoNavigation.IdOdontologo)
+                @Html.DisplayFor(modelItem => item.IdOdontologoNavigation.Nombre)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.IdPacienteNavigation.IdPaciente)
+                @Html.DisplayFor(modelItem => item.IdPacienteNavigation.Nombre)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.IdProcesoNavigation.IdProcedimiento)
+                @Html.DisplayFor(modelItem => item.IdProcedimientoNavigation.Descripcion)
             </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.IdProcedimientoNavigation.Costo)
+                </td>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.IdCita">Edit</a> |
                 <a asp-action="Details" asp-route-id="@item.IdCita">Details</a> |

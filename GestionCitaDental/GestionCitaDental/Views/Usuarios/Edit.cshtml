@@ -14,22 +14,22 @@
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <input type="hidden" asp-for="IdUsuario" />
             <div class="form-group">
-                <label asp-for="Usuario" class="control-label"></label>
+                <label class="control-label">NOMBRE DE USUARIO</label>
                 <input asp-for="Usuario" class="form-control" />
                 <span asp-validation-for="Usuario" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Contraseña" class="control-label"></label>
+                <label class="control-label">CONTRASEÑA</label>
                 <input asp-for="Contraseña" class="form-control" />
                 <span asp-validation-for="Contraseña" class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <label asp-for="IdCorreo" class="control-label"></label>
+            <div class="form-group" style="display:none;">
+                <label class="control-label">CORREO</label>
                 <select asp-for="IdCorreo" class="form-control" asp-items="ViewBag.IdCorreo"></select>
                 <span asp-validation-for="IdCorreo" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="IdTipoUsuario" class="control-label"></label>
+                <label class="control-label">TIPO USUARIO</label>
                 <select asp-for="IdTipoUsuario" class="form-control" asp-items="ViewBag.IdTipoUsuario"></select>
                 <span asp-validation-for="IdTipoUsuario" class="text-danger"></span>
             </div>

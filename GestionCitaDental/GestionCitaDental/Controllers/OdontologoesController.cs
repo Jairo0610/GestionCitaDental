@@ -11,9 +11,9 @@ namespace GestionCitaDental.Controllers
 {
     public class OdontologoesController : Controller
     {
-        private readonly ClinicaDentalContext _context;
+        private readonly DbClinicaDentalContext _context;
 
-        public OdontologoesController(ClinicaDentalContext context)
+        public OdontologoesController(DbClinicaDentalContext context)
         {
             _context = context;
         }
@@ -21,8 +21,8 @@ namespace GestionCitaDental.Controllers
         // GET: Odontologoes
         public async Task<IActionResult> Index()
         {
-            var clinicaDentalContext = _context.TblOdontologos.Include(t => t.IdCorreoNavigation);
-            return View(await clinicaDentalContext.ToListAsync());
+            var dbClinicaDentalContext = _context.TblOdontologos.Include(t => t.IdCorreoNavigation);
+            return View(await dbClinicaDentalContext.ToListAsync());
         }
 
         // GET: Odontologoes/Details/5
@@ -47,7 +47,7 @@ namespace GestionCitaDental.Controllers
         // GET: Odontologoes/Create
         public IActionResult Create()
         {
-            ViewData["IdCorreo"] = new SelectList(_context.TblCorreos, "IdCorreo", "IdCorreo");
+            ViewData["IdCorreo"] = new SelectList(_context.TblCorreos, "IdCorreo", "Correo");
             return View();
         }
 
@@ -56,15 +56,17 @@ namespace GestionCitaDental.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("IdOdontologo,Nombre,Telefono,IdCorreo")] TblOdontologo tblOdontologo)
+        public async Task<IActionResult> Create([Bind("IdOdontologo,Nombre,Telefono,IdCorreoNavigation")] TblOdontologo tblOdontologo)
         {
             if (ModelState.IsValid)
             {
+                TblCorreo tblCorreo = tblOdontologo.IdCorreoNavigation;
+                _context.Add(tblCorreo);
                 _context.Add(tblOdontologo);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["IdCorreo"] = new SelectList(_context.TblCorreos, "IdCorreo", "IdCorreo", tblOdontologo.IdCorreo);
+            ViewData["IdCorreo"] = new SelectList(_context.TblCorreos, "IdCorreo", "Correo", tblOdontologo.IdCorreo);
             return View(tblOdontologo);
         }
 
@@ -81,7 +83,7 @@ namespace GestionCitaDental.Controllers
             {
                 return NotFound();
             }
-            ViewData["IdCorreo"] = new SelectList(_context.TblCorreos, "IdCorreo", "IdCorreo", tblOdontologo.IdCorreo);
+            ViewData["IdCorreo"] = new SelectList(_context.TblCorreos, "IdCorreo", "Correo", tblOdontologo.IdCorreo);
             return View(tblOdontologo);
         }
 
@@ -117,7 +119,7 @@ namespace GestionCitaDental.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["IdCorreo"] = new SelectList(_context.TblCorreos, "IdCorreo", "IdCorreo", tblOdontologo.IdCorreo);
+            ViewData["IdCorreo"] = new SelectList(_context.TblCorreos, "IdCorreo", "Correo", tblOdontologo.IdCorreo);
             return View(tblOdontologo);
         }
 

@@ -11,9 +11,9 @@ namespace GestionCitaDental.Controllers
 {
     public class UsuariosController : Controller
     {
-        private readonly ClinicaDentalContext _context;
+        private readonly DbClinicaDentalContext _context;
 
-        public UsuariosController(ClinicaDentalContext context)
+        public UsuariosController(DbClinicaDentalContext context)
         {
             _context = context;
         }
@@ -21,8 +21,8 @@ namespace GestionCitaDental.Controllers
         // GET: Usuarios
         public async Task<IActionResult> Index()
         {
-            var clinicaDentalContext = _context.TblUsuarios.Include(t => t.IdCorreoNavigation).Include(t => t.IdTipoUsuarioNavigation);
-            return View(await clinicaDentalContext.ToListAsync());
+            var dbClinicaDentalContext = _context.TblUsuarios.Include(t => t.IdCorreoNavigation).Include(t => t.IdTipoUsuarioNavigation);
+            return View(await dbClinicaDentalContext.ToListAsync());
         }
 
         // GET: Usuarios/Details/5
@@ -48,7 +48,7 @@ namespace GestionCitaDental.Controllers
         // GET: Usuarios/Create
         public IActionResult Create()
         {
-            ViewData["IdCorreo"] = new SelectList(_context.TblCorreos, "IdCorreo", "IdCorreo");
+            ViewData["IdCorreo"] = new SelectList(_context.TblCorreos, "IdCorreo", "Correo");
             ViewData["IdTipoUsuario"] = new SelectList(_context.TblTipoUsuarios, "IdTipoUsuario", "IdTipoUsuario");
             return View();
         }
@@ -58,16 +58,18 @@ namespace GestionCitaDental.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("IdUsuario,Usuario,Contraseña,IdCorreo,IdTipoUsuario")] TblUsuario tblUsuario)
+        public async Task<IActionResult> Create([Bind("IdUsuario,Usuario,Contraseña,IdCorreo,IdCorreoNavigation")] TblUsuario tblUsuario)
         {
             if (ModelState.IsValid)
             {
+                TblCorreo tblCorreo = tblUsuario.IdCorreoNavigation;
+                _context.Add(tblCorreo);
                 _context.Add(tblUsuario);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["IdCorreo"] = new SelectList(_context.TblCorreos, "IdCorreo", "IdCorreo", tblUsuario.IdCorreo);
-            ViewData["IdTipoUsuario"] = new SelectList(_context.TblTipoUsuarios, "IdTipoUsuario", "IdTipoUsuario", tblUsuario.IdTipoUsuario);
+            ViewData["IdCorreo"] = new SelectList(_context.TblCorreos, "IdCorreo", "Correo", tblUsuario.IdCorreo);
+            ViewData["IdTipoUsuario"] = new SelectList(_context.TblTipoUsuarios, "IdTipoUsuario", "Descripcion", tblUsuario.IdTipoUsuario);
             return View(tblUsuario);
         }
 
@@ -84,8 +86,8 @@ namespace GestionCitaDental.Controllers
             {
                 return NotFound();
             }
-            ViewData["IdCorreo"] = new SelectList(_context.TblCorreos, "IdCorreo", "IdCorreo", tblUsuario.IdCorreo);
-            ViewData["IdTipoUsuario"] = new SelectList(_context.TblTipoUsuarios, "IdTipoUsuario", "IdTipoUsuario", tblUsuario.IdTipoUsuario);
+            ViewData["IdCorreo"] = new SelectList(_context.TblCorreos, "IdCorreo", "Correo", tblUsuario.IdCorreo);
+            ViewData["IdTipoUsuario"] = new SelectList(_context.TblTipoUsuarios, "IdTipoUsuario", "Descripcion", tblUsuario.IdTipoUsuario);
             return View(tblUsuario);
         }
 
@@ -121,8 +123,8 @@ namespace GestionCitaDental.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["IdCorreo"] = new SelectList(_context.TblCorreos, "IdCorreo", "IdCorreo", tblUsuario.IdCorreo);
-            ViewData["IdTipoUsuario"] = new SelectList(_context.TblTipoUsuarios, "IdTipoUsuario", "IdTipoUsuario", tblUsuario.IdTipoUsuario);
+            ViewData["IdCorreo"] = new SelectList(_context.TblCorreos, "IdCorreo", "Correo", tblUsuario.IdCorreo);
+            ViewData["IdTipoUsuario"] = new SelectList(_context.TblTipoUsuarios, "IdTipoUsuario", "Descripcion", tblUsuario.IdTipoUsuario);
             return View(tblUsuario);
         }
 

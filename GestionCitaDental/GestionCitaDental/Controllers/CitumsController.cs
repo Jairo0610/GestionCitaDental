@@ -11,9 +11,9 @@ namespace GestionCitaDental.Controllers
 {
     public class CitumsController : Controller
     {
-        private readonly ClinicaDentalContext _context;
+        private readonly DbClinicaDentalContext _context;
 
-        public CitumsController(ClinicaDentalContext context)
+        public CitumsController(DbClinicaDentalContext context)
         {
             _context = context;
         }
@@ -21,8 +21,8 @@ namespace GestionCitaDental.Controllers
         // GET: Citums
         public async Task<IActionResult> Index()
         {
-            var clinicaDentalContext = _context.TblCita.Include(t => t.IdEstadoNavigation).Include(t => t.IdOdontologoNavigation).Include(t => t.IdPacienteNavigation).Include(t => t.IdProcesoNavigation);
-            return View(await clinicaDentalContext.ToListAsync());
+            var dbClinicaDentalContext = _context.TblCita.Include(t => t.IdEstadoCitaNavigation).Include(t => t.IdOdontologoNavigation).Include(t => t.IdPacienteNavigation).Include(t => t.IdProcedimientoNavigation);
+            return View(await dbClinicaDentalContext.ToListAsync());
         }
 
         // GET: Citums/Details/5
@@ -34,10 +34,10 @@ namespace GestionCitaDental.Controllers
             }
 
             var tblCitum = await _context.TblCita
-                .Include(t => t.IdEstadoNavigation)
+                .Include(t => t.IdEstadoCitaNavigation)
                 .Include(t => t.IdOdontologoNavigation)
                 .Include(t => t.IdPacienteNavigation)
-                .Include(t => t.IdProcesoNavigation)
+                .Include(t => t.IdProcedimientoNavigation)
                 .FirstOrDefaultAsync(m => m.IdCita == id);
             if (tblCitum == null)
             {
@@ -50,10 +50,10 @@ namespace GestionCitaDental.Controllers
         // GET: Citums/Create
         public IActionResult Create()
         {
-            ViewData["IdEstado"] = new SelectList(_context.TblEstadoCita, "IdEstadoCita", "IdEstadoCita");
-            ViewData["IdOdontologo"] = new SelectList(_context.TblOdontologos, "IdOdontologo", "IdOdontologo");
-            ViewData["IdPaciente"] = new SelectList(_context.TblPacientes, "IdPaciente", "IdPaciente");
-            ViewData["IdProceso"] = new SelectList(_context.TblProcedimientos, "IdProcedimiento", "IdProcedimiento");
+            ViewData["IdEstadoCita"] = new SelectList(_context.TblEstadoCita, "IdEstadoCita", "Descripcion");
+            ViewData["IdOdontologo"] = new SelectList(_context.TblOdontologos, "IdOdontologo", "Nombre");
+            ViewData["IdPaciente"] = new SelectList(_context.TblPacientes, "IdPaciente", "Nombre");
+            ViewData["IdProcedimiento"] = new SelectList(_context.TblProcedimientos, "IdProcedimiento", "Descripcion");
             return View();
         }
 
@@ -62,7 +62,7 @@ namespace GestionCitaDental.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("IdCita,IdPaciente,IdProceso,IdOdontologo,FechaCita,IdEstado")] TblCitum tblCitum)
+        public async Task<IActionResult> Create([Bind("IdCita,IdPaciente,IdProcedimiento,IdOdontologo,IdEstadoCita,Fecha")] TblCitum tblCitum)
         {
             if (ModelState.IsValid)
             {
@@ -70,10 +70,10 @@ namespace GestionCitaDental.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["IdEstado"] = new SelectList(_context.TblEstadoCita, "IdEstadoCita", "IdEstadoCita", tblCitum.IdEstado);
-            ViewData["IdOdontologo"] = new SelectList(_context.TblOdontologos, "IdOdontologo", "IdOdontologo", tblCitum.IdOdontologo);
-            ViewData["IdPaciente"] = new SelectList(_context.TblPacientes, "IdPaciente", "IdPaciente", tblCitum.IdPaciente);
-            ViewData["IdProceso"] = new SelectList(_context.TblProcedimientos, "IdProcedimiento", "IdProcedimiento", tblCitum.IdProceso);
+            ViewData["IdEstadoCita"] = new SelectList(_context.TblEstadoCita, "IdEstadoCita", "Descripcion", tblCitum.IdEstadoCita);
+            ViewData["IdOdontologo"] = new SelectList(_context.TblOdontologos, "IdOdontologo", "Nombre", tblCitum.IdOdontologo);
+            ViewData["IdPaciente"] = new SelectList(_context.TblPacientes, "IdPaciente", "Nombre", tblCitum.IdPaciente);
+            ViewData["IdProcedimiento"] = new SelectList(_context.TblProcedimientos, "IdProcedimiento", "Descripcion", tblCitum.IdProcedimiento);
             return View(tblCitum);
         }
 
@@ -90,10 +90,10 @@ namespace GestionCitaDental.Controllers
             {
                 return NotFound();
             }
-            ViewData["IdEstado"] = new SelectList(_context.TblEstadoCita, "IdEstadoCita", "IdEstadoCita", tblCitum.IdEstado);
-            ViewData["IdOdontologo"] = new SelectList(_context.TblOdontologos, "IdOdontologo", "IdOdontologo", tblCitum.IdOdontologo);
-            ViewData["IdPaciente"] = new SelectList(_context.TblPacientes, "IdPaciente", "IdPaciente", tblCitum.IdPaciente);
-            ViewData["IdProceso"] = new SelectList(_context.TblProcedimientos, "IdProcedimiento", "IdProcedimiento", tblCitum.IdProceso);
+            ViewData["IdEstadoCita"] = new SelectList(_context.TblEstadoCita, "IdEstadoCita", "Descripcion", tblCitum.IdEstadoCita);
+            ViewData["IdOdontologo"] = new SelectList(_context.TblOdontologos, "IdOdontologo", "Nombre", tblCitum.IdOdontologo);
+            ViewData["IdPaciente"] = new SelectList(_context.TblPacientes, "IdPaciente", "Nombre", tblCitum.IdPaciente);
+            ViewData["IdProcedimiento"] = new SelectList(_context.TblProcedimientos, "IdProcedimiento", "Descripcion", tblCitum.IdProcedimiento);
             return View(tblCitum);
         }
 
@@ -102,7 +102,7 @@ namespace GestionCitaDental.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("IdCita,IdPaciente,IdProceso,IdOdontologo,FechaCita,IdEstado")] TblCitum tblCitum)
+        public async Task<IActionResult> Edit(int id, [Bind("IdCita,IdPaciente,IdProcedimiento,IdOdontologo,IdEstadoCita,Fecha")] TblCitum tblCitum)
         {
             if (id != tblCitum.IdCita)
             {
@@ -129,10 +129,10 @@ namespace GestionCitaDental.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["IdEstado"] = new SelectList(_context.TblEstadoCita, "IdEstadoCita", "IdEstadoCita", tblCitum.IdEstado);
-            ViewData["IdOdontologo"] = new SelectList(_context.TblOdontologos, "IdOdontologo", "IdOdontologo", tblCitum.IdOdontologo);
-            ViewData["IdPaciente"] = new SelectList(_context.TblPacientes, "IdPaciente", "IdPaciente", tblCitum.IdPaciente);
-            ViewData["IdProceso"] = new SelectList(_context.TblProcedimientos, "IdProcedimiento", "IdProcedimiento", tblCitum.IdProceso);
+            ViewData["IdEstadoCita"] = new SelectList(_context.TblEstadoCita, "IdEstadoCita", "Descripcion", tblCitum.IdEstadoCita);
+            ViewData["IdOdontologo"] = new SelectList(_context.TblOdontologos, "IdOdontologo", "Nombre", tblCitum.IdOdontologo);
+            ViewData["IdPaciente"] = new SelectList(_context.TblPacientes, "IdPaciente", "Nombre", tblCitum.IdPaciente);
+            ViewData["IdProcedimiento"] = new SelectList(_context.TblProcedimientos, "IdProcedimiento", "Descripcion", tblCitum.IdProcedimiento);
             return View(tblCitum);
         }
 
@@ -145,10 +145,10 @@ namespace GestionCitaDental.Controllers
             }
 
             var tblCitum = await _context.TblCita
-                .Include(t => t.IdEstadoNavigation)
+                .Include(t => t.IdEstadoCitaNavigation)
                 .Include(t => t.IdOdontologoNavigation)
                 .Include(t => t.IdPacienteNavigation)
-                .Include(t => t.IdProcesoNavigation)
+                .Include(t => t.IdProcedimientoNavigation)
                 .FirstOrDefaultAsync(m => m.IdCita == id);
             if (tblCitum == null)
             {

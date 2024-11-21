@@ -11,9 +11,9 @@ namespace GestionCitaDental.Controllers
 {
     public class EstadoCitumsController : Controller
     {
-        private readonly ClinicaDentalContext _context;
+        private readonly DbClinicaDentalContext _context;
 
-        public EstadoCitumsController(ClinicaDentalContext context)
+        public EstadoCitumsController(DbClinicaDentalContext context)
         {
             _context = context;
         }

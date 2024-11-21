@@ -13,25 +13,25 @@
         <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
-                <label asp-for="IdPaciente" class="control-label"></label>
-                <select asp-for="IdPaciente" class ="form-control" asp-items="ViewBag.IdPaciente"></select>
+                <label class="control-label">PACIENTE</label>
+                <select asp-for="IdPaciente" class="form-control" asp-items="ViewBag.IdPaciente"></select>
             </div>
             <div class="form-group">
-                <label asp-for="IdProceso" class="control-label"></label>
-                <select asp-for="IdProceso" class ="form-control" asp-items="ViewBag.IdProceso"></select>
+                <label class="control-label">SERVICIO</label>
+                <select asp-for="IdProcedimiento" class="form-control" asp-items="ViewBag.IdProcedimiento"></select>
             </div>
             <div class="form-group">
-                <label asp-for="IdOdontologo" class="control-label"></label>
-                <select asp-for="IdOdontologo" class ="form-control" asp-items="ViewBag.IdOdontologo"></select>
+                <label class="control-label">DOCTOR</label>
+                <select asp-for="IdOdontologo" class="form-control" asp-items="ViewBag.IdOdontologo"></select>
+            </div>
+            <div class="form-group" style="display: none;">
+                <label class="control-label">ESTADO DE CITA</label>
+                <select asp-for="IdEstadoCita" class="form-control" asp-items="ViewBag.IdEstadoCita" ></select>
             </div>
             <div class="form-group">
-                <label asp-for="FechaCita" class="control-label"></label>
-                <input asp-for="FechaCita" class="form-control" />
-                <span asp-validation-for="FechaCita" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="IdEstado" class="control-label"></label>
-                <select asp-for="IdEstado" class ="form-control" asp-items="ViewBag.IdEstado"></select>
+                <label class="control-label">FECHA Y HORA DE CITA</label>
+                <input asp-for="Fecha" type="datetime-local" class="form-control" />
+                <span asp-validation-for="Fecha" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-primary" />

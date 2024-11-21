@@ -13,19 +13,19 @@
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.Nombre)
+                NOMBRE
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Telefono)
+                TELEFONO
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Direccion)
+                DIRECCION
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Dui)
+                DUI
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.IdCorreoNavigation)
+                CORREO
             </th>
             <th></th>
         </tr>
@@ -46,7 +46,7 @@
                 @Html.DisplayFor(modelItem => item.Dui)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.IdCorreoNavigation.IdCorreo)
+                @Html.DisplayFor(modelItem => item.IdCorreoNavigation.Correo)
             </td>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.IdPaciente">Edit</a> |

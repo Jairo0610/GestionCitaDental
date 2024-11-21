@@ -9,7 +9,7 @@ builder.Services.AddControllersWithViews();
 var conString = builder.Configuration.GetConnectionString("conexion") ??
      throw new InvalidOperationException("Connection string 'BloggingContext'" +
     " not found.");
-builder.Services.AddDbContext<ClinicaDentalContext>(options =>
+builder.Services.AddDbContext<DbClinicaDentalContext>(options =>
     options.UseSqlServer(conString));
 
 var app = builder.Build();

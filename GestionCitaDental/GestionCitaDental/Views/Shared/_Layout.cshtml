@@ -20,35 +20,63 @@
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                            <a class="nav-link " asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Correos" asp-action="Index">Correos</a>
+                            <a class="nav-link " asp-area="" asp-controller="Correos" asp-action="Index">Correos</a>
+                        </li>
+                        @* <li class="nav-item">
+                        <a class="nav-link " asp-area="" asp-controller="EstadoCitums" asp-action="Index">Estado de Citas</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="EstadoCitums" asp-action="Index">Estado de Citas</a>
+                        <a class="nav-link " asp-area="" asp-controller="Citums" asp-action="Index">Citas</a>
+                        </li> *@
+                        <li class="nav-item">
+                            <a class="nav-link " asp-area="" asp-controller="Odontologoes" asp-action="Index">Doctores</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Citums" asp-action="Index">Citas</a>
+                            <a class="nav-link " asp-area="" asp-controller="Pacientes" asp-action="Index">Pacientes</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Odontologoes" asp-action="Index">Doctores</a>
+                            <a class="nav-link " asp-area="" asp-controller="Procedimientoes" asp-action="Index">Procedimientos</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdownUsuarios" href="#page-top" role="button" data-bs-toggle="dropdown" aria-expanded="false">Usuarios</a>
+                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownUsuarios">
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-area="" asp-controller="Usuarios" asp-action="Index">Usuarios</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-area="" asp-controller="TipoUsuarios" asp-action="Index">Tipo Usuarios</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdownCitas" href="#page-top" role="button" data-bs-toggle="dropdown" aria-expanded="false">Citas</a>
+                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownCitas">
+                                <li class="nav-item">
+                                    <a class="nav-link " asp-area="" asp-controller="Citums" asp-action="Index">Citas</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link " asp-area="" asp-controller="EstadoCitums" asp-action="Index">Estado de Citas</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        @* <li class="nav-item">
+                        <a class="nav-link" asp-area="" asp-controller="TipoUsuarios" asp-action="Index">Tipo Usuarios</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Pacientes" asp-action="Index">Pacientes</a>
-                        </li>
+                        <a class="nav-link" asp-area="" asp-controller="Usuarios" asp-action="Index">Usuarios</a>
+                        </li> *@
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Procedimientoes" asp-action="Index">Procedimientos</a>
+                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="TipoUsuarios" asp-action="Index">Tipo Usuarios</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Usuarios" asp-action="Index">Usuarios</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                        </li>
+                    </ul>
+                    <a id="inicio-sesion" href="@Url.Action("Privacy", "Home")" class="btn-login">
+                        Iniciar Sesión
+                    </a>
+                    </li>
                     </ul>
                 </div>
             </div>

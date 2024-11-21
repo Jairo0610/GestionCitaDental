@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nFrRiEy8Fyo=",
+  "dgSpecHash": "Nai8mi3ketU=",
   "success": true,
-  "projectFilePath": "C:\\Users\\argue\\Documents\\EstructuraDatos\\GestionCitaDental\\GestionCitaDental\\GestionCitaDental.csproj",
+  "projectFilePath": "C:\\Users\\argue\\Desktop\\PRUEBA ASP.NET\\GestionCitaDental\\GestionCitaDental\\GestionCitaDental.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\argue\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\argue\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
