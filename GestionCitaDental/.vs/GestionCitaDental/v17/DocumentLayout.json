@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\argue\\Desktop\\Proyecto_ESD\\GestionCitaDental\\GestionCitaDental\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{86065B99-2968-458D-A15C-32617A796B38}|GestionCitaDental\\GestionCitaDental.csproj|c:\\users\\argue\\desktop\\proyecto_esd\\gestioncitadental\\gestioncitadental\\gestioncitadental\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86065B99-2968-458D-A15C-32617A796B38}|GestionCitaDental\\GestionCitaDental.csproj|solutionrelative:gestioncitadental\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{86065B99-2968-458D-A15C-32617A796B38}|GestionCitaDental\\GestionCitaDental.csproj|c:\\users\\argue\\desktop\\proyecto_esd\\gestioncitadental\\gestioncitadental\\gestioncitadental\\views\\procedimientoes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{86065B99-2968-458D-A15C-32617A796B38}|GestionCitaDental\\GestionCitaDental.csproj|solutionrelative:gestioncitadental\\views\\procedimientoes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -17,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{86065B99-2968-458D-A15C-32617A796B38}|GestionCitaDental\\GestionCitaDental.csproj|c:\\users\\argue\\desktop\\proyecto_esd\\gestioncitadental\\gestioncitadental\\gestioncitadental\\views\\odontologoes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{86065B99-2968-458D-A15C-32617A796B38}|GestionCitaDental\\GestionCitaDental.csproj|solutionrelative:gestioncitadental\\views\\odontologoes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{86065B99-2968-458D-A15C-32617A796B38}|GestionCitaDental\\GestionCitaDental.csproj|c:\\users\\argue\\desktop\\proyecto_esd\\gestioncitadental\\gestioncitadental\\gestioncitadental\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{86065B99-2968-458D-A15C-32617A796B38}|GestionCitaDental\\GestionCitaDental.csproj|solutionrelative:gestioncitadental\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{86065B99-2968-458D-A15C-32617A796B38}|GestionCitaDental\\GestionCitaDental.csproj|c:\\users\\argue\\desktop\\proyecto_esd\\gestioncitadental\\gestioncitadental\\gestioncitadental\\controllers\\odontologoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -50,11 +50,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\argue\\Desktop\\Proyecto_ESD\\GestionCitaDental\\GestionCitaDental\\GestionCitaDental\\Views\\Procedimientoes\\Index.cshtml",
               "RelativeDocumentMoniker": "GestionCitaDental\\Views\\Procedimientoes\\Index.cshtml",
@@ -67,7 +67,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ProcedimientoesController.cs",
               "DocumentMoniker": "C:\\Users\\argue\\Desktop\\Proyecto_ESD\\GestionCitaDental\\GestionCitaDental\\GestionCitaDental\\Controllers\\ProcedimientoesController.cs",
               "RelativeDocumentMoniker": "GestionCitaDental\\Controllers\\ProcedimientoesController.cs",
@@ -75,20 +75,20 @@
               "RelativeToolTip": "GestionCitaDental\\Controllers\\ProcedimientoesController.cs",
               "ViewState": "AQIAAI4AAAAAAAAAAAAYwFcAAABnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-23T17:10:10.354Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-23T17:10:10.354Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\argue\\Desktop\\Proyecto_ESD\\GestionCitaDental\\GestionCitaDental\\GestionCitaDental\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "GestionCitaDental\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\argue\\Desktop\\Proyecto_ESD\\GestionCitaDental\\GestionCitaDental\\GestionCitaDental\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "GestionCitaDental\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAABsAAAAAAAAAAAAAACEAAAAtAAAA",
+              "ViewState": "AQIAAFcAAAAAAAAAAAAAAGMAAABfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-23T03:27:00.877Z"
+              "WhenOpened": "2024-11-23T03:27:00.877Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -128,7 +128,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\argue\\Desktop\\Proyecto_ESD\\GestionCitaDental\\GestionCitaDental\\GestionCitaDental\\Views\\Odontologoes\\Edit.cshtml",
               "RelativeDocumentMoniker": "GestionCitaDental\\Views\\Odontologoes\\Edit.cshtml",
@@ -136,12 +136,11 @@
               "RelativeToolTip": "GestionCitaDental\\Views\\Odontologoes\\Edit.cshtml",
               "ViewState": "AQIAABUAAAAAAAAAAAAAAB4AAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-23T03:19:30.24Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-23T03:19:30.24Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\argue\\Desktop\\Proyecto_ESD\\GestionCitaDental\\GestionCitaDental\\GestionCitaDental\\Views\\Odontologoes\\Index.cshtml",
               "RelativeDocumentMoniker": "GestionCitaDental\\Views\\Odontologoes\\Index.cshtml",
