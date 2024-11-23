@@ -1,0 +1,49 @@
+﻿@model GestionCitaDental.Models.TblCitum
+@{
+    ViewBag.Title = "Calendario de Citas";
+}
+
+
+<div id="calendar"></div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var calendarEl = document.getElementById('calendar');
+        var calendar = new FullCalendar.Calendar(calendarEl, {
+            initialView: 'timeGridWeek', // Vista semanal por defecto
+            headerToolbar: {
+                left: 'prev,next today',
+                center: 'title',
+                right: 'timeGridWeek,dayGridMonth'
+            },
+            events: '/Citums/GetEvents', // URL para cargar las citas
+            locale: 'es', // Idioma español
+            editable: false, // Opcional: deshabilitar edición
+            eventTimeFormat: { // Formato de hora AM/PM
+                hour: 'numeric',
+                minute: '2-digit',
+                meridiem: 'short' // Para mostrar AM/PM
+            },
+            eventMouseEnter: function (info) {
+                var tooltip = new bootstrap.Tooltip(info.el, {
+                    title: info.event.extendedProps.description, // Mostrar descripción
+                    html: true, // Permitir HTML en el tooltip
+                    placement: 'top',
+                    trigger: 'hover'
+                });
+                tooltip.show();
+            },
+            eventMouseLeave: function (info) {
+                bootstrap.Tooltip.getInstance(info.el).dispose(); // Eliminar tooltip al salir
+            }
+        });
+        calendar.render();
+    });
+</script>
+
+<style>
+    #calendar {
+        max-width: 90%;
+        margin: 2em auto;
+    }
+</style>

@@ -21,6 +21,9 @@
             <th>
                 CORREO
             </th>
+            <th>
+                DISPONIBILIDAD
+            </th>
             <th></th>
         </tr>
     </thead>
@@ -35,6 +38,9 @@
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.IdCorreoNavigation.Correo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdDisponibleNavigation.Descripcion)
             </td>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.IdOdontologo">Edit</a> |

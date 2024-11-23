@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestionCitaDental", "GestionCitaDental\GestionCitaDental.csproj", "{BDF283A8-FD9E-49A5-B4A0-D986B6DFA90F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestionCitaDental", "GestionCitaDental\GestionCitaDental.csproj", "{86065B99-2968-458D-A15C-32617A796B38}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{BDF283A8-FD9E-49A5-B4A0-D986B6DFA90F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BDF283A8-FD9E-49A5-B4A0-D986B6DFA90F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BDF283A8-FD9E-49A5-B4A0-D986B6DFA90F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BDF283A8-FD9E-49A5-B4A0-D986B6DFA90F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86065B99-2968-458D-A15C-32617A796B38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86065B99-2968-458D-A15C-32617A796B38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86065B99-2968-458D-A15C-32617A796B38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86065B99-2968-458D-A15C-32617A796B38}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {825A83D8-3B68-4096-9B5D-15989C70A886}
+		SolutionGuid = {613DF89D-C047-4FF1-AFA1-FF88D5C9B252}
 	EndGlobalSection
 EndGlobal

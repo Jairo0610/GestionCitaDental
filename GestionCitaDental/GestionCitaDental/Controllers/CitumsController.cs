@@ -57,6 +57,31 @@ namespace GestionCitaDental.Controllers
             return View();
         }
 
+        // GET: Citums/Calendar
+        public IActionResult Calendar()
+        {
+            return View();
+        }
+
+        // GET: Citums/GetEvents
+        public async Task<IActionResult> GetEvents()
+        {
+            var events = await _context.TblCita
+                .Include(c => c.IdPacienteNavigation)
+                .Include(c => c.IdOdontologoNavigation)
+                .Select(c => new
+                {
+                    id = c.IdCita,
+                    title = $"{c.IdProcedimientoNavigation.Descripcion}",
+                    start = c.Fecha,
+                    allDay = false,
+                    description = $"Paciente: {c.IdPacienteNavigation.Nombre}<br>Odontólogo: {c.IdOdontologoNavigation.Nombre}<br>Procedimiento: {c.IdProcedimientoNavigation.Descripcion}<br>Estado: {c.IdEstadoCitaNavigation.Descripcion}<br>Fecha: {c.Fecha:dd/MM/yyyy HH:mm}"
+                })
+                .ToListAsync();
+
+            return Json(events);
+        }
+
         // POST: Citums/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.

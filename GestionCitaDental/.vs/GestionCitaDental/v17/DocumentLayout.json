@@ -1,34 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\argue\\Desktop\\PRUEBA ASP.NET\\GestionCitaDental\\",
+  "WorkspaceRootPath": "C:\\Users\\argue\\Desktop\\Proyecto_ESD\\GestionCitaDental\\GestionCitaDental\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BDF283A8-FD9E-49A5-B4A0-D986B6DFA90F}|GestionCitaDental\\GestionCitaDental.csproj|c:\\users\\argue\\desktop\\prueba asp.net\\gestioncitadental\\gestioncitadental\\views\\usuarios\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BDF283A8-FD9E-49A5-B4A0-D986B6DFA90F}|GestionCitaDental\\GestionCitaDental.csproj|solutionrelative:gestioncitadental\\views\\usuarios\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{86065B99-2968-458D-A15C-32617A796B38}|GestionCitaDental\\GestionCitaDental.csproj|c:\\users\\argue\\desktop\\proyecto_esd\\gestioncitadental\\gestioncitadental\\gestioncitadental\\views\\odontologoes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86065B99-2968-458D-A15C-32617A796B38}|GestionCitaDental\\GestionCitaDental.csproj|solutionrelative:gestioncitadental\\views\\odontologoes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BDF283A8-FD9E-49A5-B4A0-D986B6DFA90F}|GestionCitaDental\\GestionCitaDental.csproj|c:\\users\\argue\\desktop\\prueba asp.net\\gestioncitadental\\gestioncitadental\\views\\usuarios\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BDF283A8-FD9E-49A5-B4A0-D986B6DFA90F}|GestionCitaDental\\GestionCitaDental.csproj|solutionrelative:gestioncitadental\\views\\usuarios\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{86065B99-2968-458D-A15C-32617A796B38}|GestionCitaDental\\GestionCitaDental.csproj|c:\\users\\argue\\desktop\\proyecto_esd\\gestioncitadental\\gestioncitadental\\gestioncitadental\\views\\odontologoes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86065B99-2968-458D-A15C-32617A796B38}|GestionCitaDental\\GestionCitaDental.csproj|solutionrelative:gestioncitadental\\views\\odontologoes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BDF283A8-FD9E-49A5-B4A0-D986B6DFA90F}|GestionCitaDental\\GestionCitaDental.csproj|c:\\users\\argue\\desktop\\prueba asp.net\\gestioncitadental\\gestioncitadental\\views\\usuarios\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BDF283A8-FD9E-49A5-B4A0-D986B6DFA90F}|GestionCitaDental\\GestionCitaDental.csproj|solutionrelative:gestioncitadental\\views\\usuarios\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{86065B99-2968-458D-A15C-32617A796B38}|GestionCitaDental\\GestionCitaDental.csproj|c:\\users\\argue\\desktop\\proyecto_esd\\gestioncitadental\\gestioncitadental\\gestioncitadental\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86065B99-2968-458D-A15C-32617A796B38}|GestionCitaDental\\GestionCitaDental.csproj|solutionrelative:gestioncitadental\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BDF283A8-FD9E-49A5-B4A0-D986B6DFA90F}|GestionCitaDental\\GestionCitaDental.csproj|c:\\users\\argue\\desktop\\prueba asp.net\\gestioncitadental\\gestioncitadental\\views\\usuarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BDF283A8-FD9E-49A5-B4A0-D986B6DFA90F}|GestionCitaDental\\GestionCitaDental.csproj|solutionrelative:gestioncitadental\\views\\usuarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{86065B99-2968-458D-A15C-32617A796B38}|GestionCitaDental\\GestionCitaDental.csproj|c:\\users\\argue\\desktop\\proyecto_esd\\gestioncitadental\\gestioncitadental\\gestioncitadental\\controllers\\odontologoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86065B99-2968-458D-A15C-32617A796B38}|GestionCitaDental\\GestionCitaDental.csproj|solutionrelative:gestioncitadental\\controllers\\odontologoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BDF283A8-FD9E-49A5-B4A0-D986B6DFA90F}|GestionCitaDental\\GestionCitaDental.csproj|c:\\users\\argue\\desktop\\prueba asp.net\\gestioncitadental\\gestioncitadental\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BDF283A8-FD9E-49A5-B4A0-D986B6DFA90F}|GestionCitaDental\\GestionCitaDental.csproj|solutionrelative:gestioncitadental\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{86065B99-2968-458D-A15C-32617A796B38}|GestionCitaDental\\GestionCitaDental.csproj|c:\\users\\argue\\desktop\\proyecto_esd\\gestioncitadental\\gestioncitadental\\gestioncitadental\\models\\tblodontologo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86065B99-2968-458D-A15C-32617A796B38}|GestionCitaDental\\GestionCitaDental.csproj|solutionrelative:gestioncitadental\\models\\tblodontologo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BDF283A8-FD9E-49A5-B4A0-D986B6DFA90F}|GestionCitaDental\\GestionCitaDental.csproj|c:\\users\\argue\\desktop\\prueba asp.net\\gestioncitadental\\gestioncitadental\\views\\citums\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BDF283A8-FD9E-49A5-B4A0-D986B6DFA90F}|GestionCitaDental\\GestionCitaDental.csproj|solutionrelative:gestioncitadental\\views\\citums\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{86065B99-2968-458D-A15C-32617A796B38}|GestionCitaDental\\GestionCitaDental.csproj|c:\\users\\argue\\desktop\\proyecto_esd\\gestioncitadental\\gestioncitadental\\gestioncitadental\\views\\odontologoes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86065B99-2968-458D-A15C-32617A796B38}|GestionCitaDental\\GestionCitaDental.csproj|solutionrelative:gestioncitadental\\views\\odontologoes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BDF283A8-FD9E-49A5-B4A0-D986B6DFA90F}|GestionCitaDental\\GestionCitaDental.csproj|c:\\users\\argue\\desktop\\prueba asp.net\\gestioncitadental\\gestioncitadental\\views\\citums\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BDF283A8-FD9E-49A5-B4A0-D986B6DFA90F}|GestionCitaDental\\GestionCitaDental.csproj|solutionrelative:gestioncitadental\\views\\citums\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{86065B99-2968-458D-A15C-32617A796B38}|GestionCitaDental\\GestionCitaDental.csproj|c:\\users\\argue\\desktop\\proyecto_esd\\gestioncitadental\\gestioncitadental\\gestioncitadental\\views\\odontologoes\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86065B99-2968-458D-A15C-32617A796B38}|GestionCitaDental\\GestionCitaDental.csproj|solutionrelative:gestioncitadental\\views\\odontologoes\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86065B99-2968-458D-A15C-32617A796B38}|GestionCitaDental\\GestionCitaDental.csproj|c:\\users\\argue\\desktop\\proyecto_esd\\gestioncitadental\\gestioncitadental\\gestioncitadental\\views\\odontologoes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86065B99-2968-458D-A15C-32617A796B38}|GestionCitaDental\\GestionCitaDental.csproj|solutionrelative:gestioncitadental\\views\\odontologoes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,98 +42,104 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\argue\\Desktop\\PRUEBA ASP.NET\\GestionCitaDental\\GestionCitaDental\\Views\\Usuarios\\Delete.cshtml",
-              "RelativeDocumentMoniker": "GestionCitaDental\\Views\\Usuarios\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\argue\\Desktop\\PRUEBA ASP.NET\\GestionCitaDental\\GestionCitaDental\\Views\\Usuarios\\Delete.cshtml",
-              "RelativeToolTip": "GestionCitaDental\\Views\\Usuarios\\Delete.cshtml",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAACAAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-21T17:22:51.528Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\argue\\Desktop\\PRUEBA ASP.NET\\GestionCitaDental\\GestionCitaDental\\Views\\Usuarios\\Details.cshtml",
-              "RelativeDocumentMoniker": "GestionCitaDental\\Views\\Usuarios\\Details.cshtml",
-              "ToolTip": "C:\\Users\\argue\\Desktop\\PRUEBA ASP.NET\\GestionCitaDental\\GestionCitaDental\\Views\\Usuarios\\Details.cshtml",
-              "RelativeToolTip": "GestionCitaDental\\Views\\Usuarios\\Details.cshtml",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAACIAAABPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-21T17:22:35.894Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\argue\\Desktop\\PRUEBA ASP.NET\\GestionCitaDental\\GestionCitaDental\\Views\\Usuarios\\Edit.cshtml",
-              "RelativeDocumentMoniker": "GestionCitaDental\\Views\\Usuarios\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\argue\\Desktop\\PRUEBA ASP.NET\\GestionCitaDental\\GestionCitaDental\\Views\\Usuarios\\Edit.cshtml",
-              "RelativeToolTip": "GestionCitaDental\\Views\\Usuarios\\Edit.cshtml",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABoAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-21T17:22:08.84Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\argue\\Desktop\\PRUEBA ASP.NET\\GestionCitaDental\\GestionCitaDental\\Views\\Usuarios\\Index.cshtml",
-              "RelativeDocumentMoniker": "GestionCitaDental\\Views\\Usuarios\\Index.cshtml",
-              "ToolTip": "C:\\Users\\argue\\Desktop\\PRUEBA ASP.NET\\GestionCitaDental\\GestionCitaDental\\Views\\Usuarios\\Index.cshtml",
-              "RelativeToolTip": "GestionCitaDental\\Views\\Usuarios\\Index.cshtml",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAACoAAABWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-21T17:21:20.916Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\argue\\Desktop\\PRUEBA ASP.NET\\GestionCitaDental\\GestionCitaDental\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\argue\\Desktop\\Proyecto_ESD\\GestionCitaDental\\GestionCitaDental\\GestionCitaDental\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "GestionCitaDental\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\argue\\Desktop\\PRUEBA ASP.NET\\GestionCitaDental\\GestionCitaDental\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\argue\\Desktop\\Proyecto_ESD\\GestionCitaDental\\GestionCitaDental\\GestionCitaDental\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "GestionCitaDental\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAABcAAAAAAAAAAAAAADwAAABYAAAA",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAACEAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-21T17:17:24.401Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\argue\\Desktop\\PRUEBA ASP.NET\\GestionCitaDental\\GestionCitaDental\\Views\\Citums\\Delete.cshtml",
-              "RelativeDocumentMoniker": "GestionCitaDental\\Views\\Citums\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\argue\\Desktop\\PRUEBA ASP.NET\\GestionCitaDental\\GestionCitaDental\\Views\\Citums\\Delete.cshtml",
-              "RelativeToolTip": "GestionCitaDental\\Views\\Citums\\Delete.cshtml",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA4AAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-21T17:16:39.697Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-23T03:27:00.877Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\argue\\Desktop\\PRUEBA ASP.NET\\GestionCitaDental\\GestionCitaDental\\Views\\Citums\\Create.cshtml",
-              "RelativeDocumentMoniker": "GestionCitaDental\\Views\\Citums\\Create.cshtml",
-              "ToolTip": "C:\\Users\\argue\\Desktop\\PRUEBA ASP.NET\\GestionCitaDental\\GestionCitaDental\\Views\\Citums\\Create.cshtml",
-              "RelativeToolTip": "GestionCitaDental\\Views\\Citums\\Create.cshtml",
-              "ViewState": "AQIAABsAAAAAAAAAAAAAAB8AAABJAAAA",
+              "DocumentMoniker": "C:\\Users\\argue\\Desktop\\Proyecto_ESD\\GestionCitaDental\\GestionCitaDental\\GestionCitaDental\\Views\\Odontologoes\\Create.cshtml",
+              "RelativeDocumentMoniker": "GestionCitaDental\\Views\\Odontologoes\\Create.cshtml",
+              "ToolTip": "C:\\Users\\argue\\Desktop\\Proyecto_ESD\\GestionCitaDental\\GestionCitaDental\\GestionCitaDental\\Views\\Odontologoes\\Create.cshtml",
+              "RelativeToolTip": "GestionCitaDental\\Views\\Odontologoes\\Create.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAkwBwAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-21T17:15:56.753Z",
+              "WhenOpened": "2024-11-23T03:24:24.967Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\argue\\Desktop\\Proyecto_ESD\\GestionCitaDental\\GestionCitaDental\\GestionCitaDental\\Views\\Odontologoes\\Delete.cshtml",
+              "RelativeDocumentMoniker": "GestionCitaDental\\Views\\Odontologoes\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\argue\\Desktop\\Proyecto_ESD\\GestionCitaDental\\GestionCitaDental\\GestionCitaDental\\Views\\Odontologoes\\Delete.cshtml",
+              "RelativeToolTip": "GestionCitaDental\\Views\\Odontologoes\\Delete.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACEAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-23T03:23:53.523Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\argue\\Desktop\\Proyecto_ESD\\GestionCitaDental\\GestionCitaDental\\GestionCitaDental\\Views\\Odontologoes\\Details.cshtml",
+              "RelativeDocumentMoniker": "GestionCitaDental\\Views\\Odontologoes\\Details.cshtml",
+              "ToolTip": "C:\\Users\\argue\\Desktop\\Proyecto_ESD\\GestionCitaDental\\GestionCitaDental\\GestionCitaDental\\Views\\Odontologoes\\Details.cshtml",
+              "RelativeToolTip": "GestionCitaDental\\Views\\Odontologoes\\Details.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAAB4AAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-23T03:22:57.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\argue\\Desktop\\Proyecto_ESD\\GestionCitaDental\\GestionCitaDental\\GestionCitaDental\\Views\\Odontologoes\\Edit.cshtml",
+              "RelativeDocumentMoniker": "GestionCitaDental\\Views\\Odontologoes\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\argue\\Desktop\\Proyecto_ESD\\GestionCitaDental\\GestionCitaDental\\GestionCitaDental\\Views\\Odontologoes\\Edit.cshtml",
+              "RelativeToolTip": "GestionCitaDental\\Views\\Odontologoes\\Edit.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAB4AAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-23T03:19:30.24Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\argue\\Desktop\\Proyecto_ESD\\GestionCitaDental\\GestionCitaDental\\GestionCitaDental\\Views\\Odontologoes\\Index.cshtml",
+              "RelativeDocumentMoniker": "GestionCitaDental\\Views\\Odontologoes\\Index.cshtml",
+              "ToolTip": "C:\\Users\\argue\\Desktop\\Proyecto_ESD\\GestionCitaDental\\GestionCitaDental\\GestionCitaDental\\Views\\Odontologoes\\Index.cshtml",
+              "RelativeToolTip": "GestionCitaDental\\Views\\Odontologoes\\Index.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAACoAAABVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-23T03:17:38.574Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OdontologoesController.cs",
+              "DocumentMoniker": "C:\\Users\\argue\\Desktop\\Proyecto_ESD\\GestionCitaDental\\GestionCitaDental\\GestionCitaDental\\Controllers\\OdontologoesController.cs",
+              "RelativeDocumentMoniker": "GestionCitaDental\\Controllers\\OdontologoesController.cs",
+              "ToolTip": "C:\\Users\\argue\\Desktop\\Proyecto_ESD\\GestionCitaDental\\GestionCitaDental\\GestionCitaDental\\Controllers\\OdontologoesController.cs",
+              "RelativeToolTip": "GestionCitaDental\\Controllers\\OdontologoesController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAxwBEAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T03:12:44.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TblOdontologo.cs",
+              "DocumentMoniker": "C:\\Users\\argue\\Desktop\\Proyecto_ESD\\GestionCitaDental\\GestionCitaDental\\GestionCitaDental\\Models\\TblOdontologo.cs",
+              "RelativeDocumentMoniker": "GestionCitaDental\\Models\\TblOdontologo.cs",
+              "ToolTip": "C:\\Users\\argue\\Desktop\\Proyecto_ESD\\GestionCitaDental\\GestionCitaDental\\GestionCitaDental\\Models\\TblOdontologo.cs",
+              "RelativeToolTip": "GestionCitaDental\\Models\\TblOdontologo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T03:12:09.475Z"
             }
           ]
         }

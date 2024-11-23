@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\argue\\Desktop\\PRUEBA ASP.NET\\GestionCitaDental\\GestionCitaDental\\GestionCitaDental.csproj": {}
+    "C:\\Users\\argue\\Desktop\\Proyecto_ESD\\GestionCitaDental\\GestionCitaDental\\GestionCitaDental\\GestionCitaDental.csproj": {}
   },
   "projects": {
-    "C:\\Users\\argue\\Desktop\\PRUEBA ASP.NET\\GestionCitaDental\\GestionCitaDental\\GestionCitaDental.csproj": {
+    "C:\\Users\\argue\\Desktop\\Proyecto_ESD\\GestionCitaDental\\GestionCitaDental\\GestionCitaDental\\GestionCitaDental.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\argue\\Desktop\\PRUEBA ASP.NET\\GestionCitaDental\\GestionCitaDental\\GestionCitaDental.csproj",
+        "projectUniqueName": "C:\\Users\\argue\\Desktop\\Proyecto_ESD\\GestionCitaDental\\GestionCitaDental\\GestionCitaDental\\GestionCitaDental.csproj",
         "projectName": "GestionCitaDental",
-        "projectPath": "C:\\Users\\argue\\Desktop\\PRUEBA ASP.NET\\GestionCitaDental\\GestionCitaDental\\GestionCitaDental.csproj",
+        "projectPath": "C:\\Users\\argue\\Desktop\\Proyecto_ESD\\GestionCitaDental\\GestionCitaDental\\GestionCitaDental\\GestionCitaDental.csproj",
         "packagesPath": "C:\\Users\\argue\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\argue\\Desktop\\PRUEBA ASP.NET\\GestionCitaDental\\GestionCitaDental\\obj\\",
+        "outputPath": "C:\\Users\\argue\\Desktop\\Proyecto_ESD\\GestionCitaDental\\GestionCitaDental\\GestionCitaDental\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\argue\\AppData\\Roaming\\NuGet\\NuGet.Config",

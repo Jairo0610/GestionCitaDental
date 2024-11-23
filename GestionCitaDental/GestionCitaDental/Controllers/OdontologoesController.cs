@@ -21,7 +21,7 @@ namespace GestionCitaDental.Controllers
         // GET: Odontologoes
         public async Task<IActionResult> Index()
         {
-            var dbClinicaDentalContext = _context.TblOdontologos.Include(t => t.IdCorreoNavigation);
+            var dbClinicaDentalContext = _context.TblOdontologos.Include(t => t.IdCorreoNavigation).Include(t => t.IdDisponibleNavigation);
             return View(await dbClinicaDentalContext.ToListAsync());
         }
 
@@ -35,6 +35,7 @@ namespace GestionCitaDental.Controllers
 
             var tblOdontologo = await _context.TblOdontologos
                 .Include(t => t.IdCorreoNavigation)
+                .Include(t => t.IdDisponibleNavigation)
                 .FirstOrDefaultAsync(m => m.IdOdontologo == id);
             if (tblOdontologo == null)
             {
@@ -48,6 +49,7 @@ namespace GestionCitaDental.Controllers
         public IActionResult Create()
         {
             ViewData["IdCorreo"] = new SelectList(_context.TblCorreos, "IdCorreo", "Correo");
+            ViewData["IdDisponible"] = new SelectList(_context.TblDisponibilidads, "IdDisponibilidad", "Descripcion");
             return View();
         }
 
@@ -56,7 +58,7 @@ namespace GestionCitaDental.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("IdOdontologo,Nombre,Telefono,IdCorreoNavigation")] TblOdontologo tblOdontologo)
+        public async Task<IActionResult> Create([Bind("IdOdontologo,Nombre,Telefono,IdCorreoNavigation,IdDisponible")] TblOdontologo tblOdontologo)
         {
             if (ModelState.IsValid)
             {
@@ -67,6 +69,7 @@ namespace GestionCitaDental.Controllers
                 return RedirectToAction(nameof(Index));
             }
             ViewData["IdCorreo"] = new SelectList(_context.TblCorreos, "IdCorreo", "Correo", tblOdontologo.IdCorreo);
+            ViewData["IdDisponible"] = new SelectList(_context.TblDisponibilidads, "IdDisponibilidad", "Descripcion", tblOdontologo.IdDisponible);
             return View(tblOdontologo);
         }
 
@@ -84,6 +87,7 @@ namespace GestionCitaDental.Controllers
                 return NotFound();
             }
             ViewData["IdCorreo"] = new SelectList(_context.TblCorreos, "IdCorreo", "Correo", tblOdontologo.IdCorreo);
+            ViewData["IdDisponible"] = new SelectList(_context.TblDisponibilidads, "IdDisponibilidad", "Descripcion", tblOdontologo.IdDisponible);
             return View(tblOdontologo);
         }
 
@@ -92,7 +96,7 @@ namespace GestionCitaDental.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("IdOdontologo,Nombre,Telefono,IdCorreo")] TblOdontologo tblOdontologo)
+        public async Task<IActionResult> Edit(int id, [Bind("IdOdontologo,Nombre,Telefono,IdCorreo,IdDisponible")] TblOdontologo tblOdontologo)
         {
             if (id != tblOdontologo.IdOdontologo)
             {
@@ -120,6 +124,7 @@ namespace GestionCitaDental.Controllers
                 return RedirectToAction(nameof(Index));
             }
             ViewData["IdCorreo"] = new SelectList(_context.TblCorreos, "IdCorreo", "Correo", tblOdontologo.IdCorreo);
+            ViewData["IdDisponible"] = new SelectList(_context.TblDisponibilidads, "IdDisponibilidad", "Descripcion", tblOdontologo.IdDisponible);
             return View(tblOdontologo);
         }
 
@@ -133,6 +138,7 @@ namespace GestionCitaDental.Controllers
 
             var tblOdontologo = await _context.TblOdontologos
                 .Include(t => t.IdCorreoNavigation)
+                .Include(t => t.IdDisponibleNavigation)
                 .FirstOrDefaultAsync(m => m.IdOdontologo == id);
             if (tblOdontologo == null)
             {

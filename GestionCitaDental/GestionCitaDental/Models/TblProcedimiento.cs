@@ -11,5 +11,7 @@ public partial class TblProcedimiento
 
     public double Costo { get; set; }
 
+    public TimeOnly Duracion { get; set; }
+
     public virtual ICollection<TblCitum> TblCita { get; set; } = new List<TblCitum>();
 }

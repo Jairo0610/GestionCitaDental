@@ -19,6 +19,8 @@ public partial class DbClinicaDentalContext : DbContext
 
     public virtual DbSet<TblCorreo> TblCorreos { get; set; }
 
+    public virtual DbSet<TblDisponibilidad> TblDisponibilidads { get; set; }
+
     public virtual DbSet<TblEstadoCitum> TblEstadoCita { get; set; }
 
     public virtual DbSet<TblOdontologo> TblOdontologos { get; set; }
@@ -47,6 +49,7 @@ public partial class DbClinicaDentalContext : DbContext
             entity.ToTable("tblCita");
 
             entity.Property(e => e.IdCita).HasColumnName("idCita");
+            entity.Property(e => e.Fecha).HasColumnType("datetime");
             entity.Property(e => e.IdEstadoCita).HasColumnName("idEstadoCita");
             entity.Property(e => e.IdOdontologo).HasColumnName("idOdontologo");
             entity.Property(e => e.IdPaciente).HasColumnName("idPaciente");
@@ -81,6 +84,16 @@ public partial class DbClinicaDentalContext : DbContext
             entity.Property(e => e.Correo).HasMaxLength(100);
         });
 
+        modelBuilder.Entity<TblDisponibilidad>(entity =>
+        {
+            entity.HasKey(e => e.IdDisponibilidad).HasName("PK__tblDispo__96A3EB6A289063A8");
+
+            entity.ToTable("tblDisponibilidad");
+
+            entity.Property(e => e.IdDisponibilidad).HasColumnName("idDisponibilidad");
+            entity.Property(e => e.Descripcion).HasMaxLength(50);
+        });
+
         modelBuilder.Entity<TblEstadoCitum>(entity =>
         {
             entity.HasKey(e => e.IdEstadoCita).HasName("PK__tblEstad__FDA623A1F728719D");
@@ -99,12 +112,17 @@ public partial class DbClinicaDentalContext : DbContext
 
             entity.Property(e => e.IdOdontologo).HasColumnName("idOdontologo");
             entity.Property(e => e.IdCorreo).HasColumnName("idCorreo");
+            entity.Property(e => e.IdDisponible).HasColumnName("idDisponible");
             entity.Property(e => e.Nombre).HasMaxLength(100);
             entity.Property(e => e.Telefono).HasMaxLength(10);
 
             entity.HasOne(d => d.IdCorreoNavigation).WithMany(p => p.TblOdontologos)
                 .HasForeignKey(d => d.IdCorreo)
                 .HasConstraintName("FK__tblOdonto__idCor__29221CFB");
+
+            entity.HasOne(d => d.IdDisponibleNavigation).WithMany(p => p.TblOdontologos)
+                .HasForeignKey(d => d.IdDisponible)
+                .HasConstraintName("FK__tblOdonto__idDis__4F47C5E3");
         });
 
         modelBuilder.Entity<TblPaciente>(entity =>
@@ -135,6 +153,7 @@ public partial class DbClinicaDentalContext : DbContext
 
             entity.Property(e => e.IdProcedimiento).HasColumnName("idProcedimiento");
             entity.Property(e => e.Descripcion).HasMaxLength(50);
+            entity.Property(e => e.Duracion).HasPrecision(0);
         });
 
         modelBuilder.Entity<TblTipoUsuario>(entity =>

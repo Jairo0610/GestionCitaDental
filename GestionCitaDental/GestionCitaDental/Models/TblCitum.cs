@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
 
 namespace GestionCitaDental.Models;
 
@@ -15,8 +14,8 @@ public partial class TblCitum
     public int? IdOdontologo { get; set; }
 
     public int? IdEstadoCita { get; set; }
-    [DataType(DataType.DateTime)]
-    public DateTime? Fecha { get; set; }
+
+    public DateTime Fecha { get; set; }
 
     public virtual TblEstadoCitum? IdEstadoCitaNavigation { get; set; }
 

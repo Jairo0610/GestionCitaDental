@@ -13,7 +13,11 @@ public partial class TblOdontologo
 
     public int? IdCorreo { get; set; }
 
+    public int? IdDisponible { get; set; }
+
     public virtual TblCorreo? IdCorreoNavigation { get; set; }
+
+    public virtual TblDisponibilidad? IdDisponibleNavigation { get; set; }
 
     public virtual ICollection<TblCitum> TblCita { get; set; } = new List<TblCitum>();
 }

@@ -17,199 +17,203 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = GestionCitaDental
 build_property.RootNamespace = GestionCitaDental
-build_property.ProjectDir = C:\Users\argue\Desktop\PRUEBA ASP.NET\GestionCitaDental\GestionCitaDental\
+build_property.ProjectDir = C:\Users\argue\Desktop\Proyecto_ESD\GestionCitaDental\GestionCitaDental\GestionCitaDental\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\argue\Desktop\PRUEBA ASP.NET\GestionCitaDental\GestionCitaDental
+build_property.MSBuildProjectDirectory = C:\Users\argue\Desktop\Proyecto_ESD\GestionCitaDental\GestionCitaDental\GestionCitaDental
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/argue/Desktop/PRUEBA ASP.NET/GestionCitaDental/GestionCitaDental/Views/Citums/Create.cshtml]
+[C:/Users/argue/Desktop/Proyecto_ESD/GestionCitaDental/GestionCitaDental/GestionCitaDental/Views/Citums/Calendar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0dW1zXENhbGVuZGFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/argue/Desktop/Proyecto_ESD/GestionCitaDental/GestionCitaDental/GestionCitaDental/Views/Citums/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0dW1zXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/argue/Desktop/PRUEBA ASP.NET/GestionCitaDental/GestionCitaDental/Views/Citums/Delete.cshtml]
+[C:/Users/argue/Desktop/Proyecto_ESD/GestionCitaDental/GestionCitaDental/GestionCitaDental/Views/Citums/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0dW1zXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/argue/Desktop/PRUEBA ASP.NET/GestionCitaDental/GestionCitaDental/Views/Citums/Details.cshtml]
+[C:/Users/argue/Desktop/Proyecto_ESD/GestionCitaDental/GestionCitaDental/GestionCitaDental/Views/Citums/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0dW1zXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/argue/Desktop/PRUEBA ASP.NET/GestionCitaDental/GestionCitaDental/Views/Citums/Edit.cshtml]
+[C:/Users/argue/Desktop/Proyecto_ESD/GestionCitaDental/GestionCitaDental/GestionCitaDental/Views/Citums/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0dW1zXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/argue/Desktop/PRUEBA ASP.NET/GestionCitaDental/GestionCitaDental/Views/Citums/Index.cshtml]
+[C:/Users/argue/Desktop/Proyecto_ESD/GestionCitaDental/GestionCitaDental/GestionCitaDental/Views/Citums/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0dW1zXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/argue/Desktop/PRUEBA ASP.NET/GestionCitaDental/GestionCitaDental/Views/Correos/Create.cshtml]
+[C:/Users/argue/Desktop/Proyecto_ESD/GestionCitaDental/GestionCitaDental/GestionCitaDental/Views/Correos/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29ycmVvc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/argue/Desktop/PRUEBA ASP.NET/GestionCitaDental/GestionCitaDental/Views/Correos/Delete.cshtml]
+[C:/Users/argue/Desktop/Proyecto_ESD/GestionCitaDental/GestionCitaDental/GestionCitaDental/Views/Correos/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29ycmVvc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/argue/Desktop/PRUEBA ASP.NET/GestionCitaDental/GestionCitaDental/Views/Correos/Details.cshtml]
+[C:/Users/argue/Desktop/Proyecto_ESD/GestionCitaDental/GestionCitaDental/GestionCitaDental/Views/Correos/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29ycmVvc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/argue/Desktop/PRUEBA ASP.NET/GestionCitaDental/GestionCitaDental/Views/Correos/Edit.cshtml]
+[C:/Users/argue/Desktop/Proyecto_ESD/GestionCitaDental/GestionCitaDental/GestionCitaDental/Views/Correos/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29ycmVvc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/argue/Desktop/PRUEBA ASP.NET/GestionCitaDental/GestionCitaDental/Views/Correos/Index.cshtml]
+[C:/Users/argue/Desktop/Proyecto_ESD/GestionCitaDental/GestionCitaDental/GestionCitaDental/Views/Correos/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29ycmVvc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/argue/Desktop/PRUEBA ASP.NET/GestionCitaDental/GestionCitaDental/Views/EstadoCitums/Create.cshtml]
+[C:/Users/argue/Desktop/Proyecto_ESD/GestionCitaDental/GestionCitaDental/GestionCitaDental/Views/EstadoCitums/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0YWRvQ2l0dW1zXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/argue/Desktop/PRUEBA ASP.NET/GestionCitaDental/GestionCitaDental/Views/EstadoCitums/Delete.cshtml]
+[C:/Users/argue/Desktop/Proyecto_ESD/GestionCitaDental/GestionCitaDental/GestionCitaDental/Views/EstadoCitums/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0YWRvQ2l0dW1zXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/argue/Desktop/PRUEBA ASP.NET/GestionCitaDental/GestionCitaDental/Views/EstadoCitums/Details.cshtml]
+[C:/Users/argue/Desktop/Proyecto_ESD/GestionCitaDental/GestionCitaDental/GestionCitaDental/Views/EstadoCitums/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0YWRvQ2l0dW1zXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/argue/Desktop/PRUEBA ASP.NET/GestionCitaDental/GestionCitaDental/Views/EstadoCitums/Edit.cshtml]
+[C:/Users/argue/Desktop/Proyecto_ESD/GestionCitaDental/GestionCitaDental/GestionCitaDental/Views/EstadoCitums/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0YWRvQ2l0dW1zXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/argue/Desktop/PRUEBA ASP.NET/GestionCitaDental/GestionCitaDental/Views/EstadoCitums/Index.cshtml]
+[C:/Users/argue/Desktop/Proyecto_ESD/GestionCitaDental/GestionCitaDental/GestionCitaDental/Views/EstadoCitums/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0YWRvQ2l0dW1zXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/argue/Desktop/PRUEBA ASP.NET/GestionCitaDental/GestionCitaDental/Views/Home/Index.cshtml]
+[C:/Users/argue/Desktop/Proyecto_ESD/GestionCitaDental/GestionCitaDental/GestionCitaDental/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/argue/Desktop/PRUEBA ASP.NET/GestionCitaDental/GestionCitaDental/Views/Home/Privacy.cshtml]
+[C:/Users/argue/Desktop/Proyecto_ESD/GestionCitaDental/GestionCitaDental/GestionCitaDental/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/argue/Desktop/PRUEBA ASP.NET/GestionCitaDental/GestionCitaDental/Views/Odontologoes/Create.cshtml]
+[C:/Users/argue/Desktop/Proyecto_ESD/GestionCitaDental/GestionCitaDental/GestionCitaDental/Views/Odontologoes/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2RvbnRvbG9nb2VzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/argue/Desktop/PRUEBA ASP.NET/GestionCitaDental/GestionCitaDental/Views/Odontologoes/Delete.cshtml]
+[C:/Users/argue/Desktop/Proyecto_ESD/GestionCitaDental/GestionCitaDental/GestionCitaDental/Views/Odontologoes/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2RvbnRvbG9nb2VzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/argue/Desktop/PRUEBA ASP.NET/GestionCitaDental/GestionCitaDental/Views/Odontologoes/Details.cshtml]
+[C:/Users/argue/Desktop/Proyecto_ESD/GestionCitaDental/GestionCitaDental/GestionCitaDental/Views/Odontologoes/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2RvbnRvbG9nb2VzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/argue/Desktop/PRUEBA ASP.NET/GestionCitaDental/GestionCitaDental/Views/Odontologoes/Edit.cshtml]
+[C:/Users/argue/Desktop/Proyecto_ESD/GestionCitaDental/GestionCitaDental/GestionCitaDental/Views/Odontologoes/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2RvbnRvbG9nb2VzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/argue/Desktop/PRUEBA ASP.NET/GestionCitaDental/GestionCitaDental/Views/Odontologoes/Index.cshtml]
+[C:/Users/argue/Desktop/Proyecto_ESD/GestionCitaDental/GestionCitaDental/GestionCitaDental/Views/Odontologoes/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2RvbnRvbG9nb2VzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/argue/Desktop/PRUEBA ASP.NET/GestionCitaDental/GestionCitaDental/Views/Pacientes/Create.cshtml]
+[C:/Users/argue/Desktop/Proyecto_ESD/GestionCitaDental/GestionCitaDental/GestionCitaDental/Views/Pacientes/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFjaWVudGVzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/argue/Desktop/PRUEBA ASP.NET/GestionCitaDental/GestionCitaDental/Views/Pacientes/Delete.cshtml]
+[C:/Users/argue/Desktop/Proyecto_ESD/GestionCitaDental/GestionCitaDental/GestionCitaDental/Views/Pacientes/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFjaWVudGVzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/argue/Desktop/PRUEBA ASP.NET/GestionCitaDental/GestionCitaDental/Views/Pacientes/Details.cshtml]
+[C:/Users/argue/Desktop/Proyecto_ESD/GestionCitaDental/GestionCitaDental/GestionCitaDental/Views/Pacientes/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFjaWVudGVzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/argue/Desktop/PRUEBA ASP.NET/GestionCitaDental/GestionCitaDental/Views/Pacientes/Edit.cshtml]
+[C:/Users/argue/Desktop/Proyecto_ESD/GestionCitaDental/GestionCitaDental/GestionCitaDental/Views/Pacientes/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFjaWVudGVzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/argue/Desktop/PRUEBA ASP.NET/GestionCitaDental/GestionCitaDental/Views/Pacientes/Index.cshtml]
+[C:/Users/argue/Desktop/Proyecto_ESD/GestionCitaDental/GestionCitaDental/GestionCitaDental/Views/Pacientes/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFjaWVudGVzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/argue/Desktop/PRUEBA ASP.NET/GestionCitaDental/GestionCitaDental/Views/Procedimientoes/Create.cshtml]
+[C:/Users/argue/Desktop/Proyecto_ESD/GestionCitaDental/GestionCitaDental/GestionCitaDental/Views/Procedimientoes/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvY2VkaW1pZW50b2VzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/argue/Desktop/PRUEBA ASP.NET/GestionCitaDental/GestionCitaDental/Views/Procedimientoes/Delete.cshtml]
+[C:/Users/argue/Desktop/Proyecto_ESD/GestionCitaDental/GestionCitaDental/GestionCitaDental/Views/Procedimientoes/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvY2VkaW1pZW50b2VzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/argue/Desktop/PRUEBA ASP.NET/GestionCitaDental/GestionCitaDental/Views/Procedimientoes/Details.cshtml]
+[C:/Users/argue/Desktop/Proyecto_ESD/GestionCitaDental/GestionCitaDental/GestionCitaDental/Views/Procedimientoes/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvY2VkaW1pZW50b2VzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/argue/Desktop/PRUEBA ASP.NET/GestionCitaDental/GestionCitaDental/Views/Procedimientoes/Edit.cshtml]
+[C:/Users/argue/Desktop/Proyecto_ESD/GestionCitaDental/GestionCitaDental/GestionCitaDental/Views/Procedimientoes/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvY2VkaW1pZW50b2VzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/argue/Desktop/PRUEBA ASP.NET/GestionCitaDental/GestionCitaDental/Views/Procedimientoes/Index.cshtml]
+[C:/Users/argue/Desktop/Proyecto_ESD/GestionCitaDental/GestionCitaDental/GestionCitaDental/Views/Procedimientoes/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvY2VkaW1pZW50b2VzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/argue/Desktop/PRUEBA ASP.NET/GestionCitaDental/GestionCitaDental/Views/Shared/Error.cshtml]
+[C:/Users/argue/Desktop/Proyecto_ESD/GestionCitaDental/GestionCitaDental/GestionCitaDental/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/argue/Desktop/PRUEBA ASP.NET/GestionCitaDental/GestionCitaDental/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/argue/Desktop/Proyecto_ESD/GestionCitaDental/GestionCitaDental/GestionCitaDental/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/argue/Desktop/PRUEBA ASP.NET/GestionCitaDental/GestionCitaDental/Views/TipoUsuarios/Create.cshtml]
+[C:/Users/argue/Desktop/Proyecto_ESD/GestionCitaDental/GestionCitaDental/GestionCitaDental/Views/TipoUsuarios/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb1VzdWFyaW9zXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/argue/Desktop/PRUEBA ASP.NET/GestionCitaDental/GestionCitaDental/Views/TipoUsuarios/Delete.cshtml]
+[C:/Users/argue/Desktop/Proyecto_ESD/GestionCitaDental/GestionCitaDental/GestionCitaDental/Views/TipoUsuarios/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb1VzdWFyaW9zXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/argue/Desktop/PRUEBA ASP.NET/GestionCitaDental/GestionCitaDental/Views/TipoUsuarios/Details.cshtml]
+[C:/Users/argue/Desktop/Proyecto_ESD/GestionCitaDental/GestionCitaDental/GestionCitaDental/Views/TipoUsuarios/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb1VzdWFyaW9zXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/argue/Desktop/PRUEBA ASP.NET/GestionCitaDental/GestionCitaDental/Views/TipoUsuarios/Edit.cshtml]
+[C:/Users/argue/Desktop/Proyecto_ESD/GestionCitaDental/GestionCitaDental/GestionCitaDental/Views/TipoUsuarios/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb1VzdWFyaW9zXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/argue/Desktop/PRUEBA ASP.NET/GestionCitaDental/GestionCitaDental/Views/TipoUsuarios/Index.cshtml]
+[C:/Users/argue/Desktop/Proyecto_ESD/GestionCitaDental/GestionCitaDental/GestionCitaDental/Views/TipoUsuarios/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb1VzdWFyaW9zXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/argue/Desktop/PRUEBA ASP.NET/GestionCitaDental/GestionCitaDental/Views/Usuarios/Create.cshtml]
+[C:/Users/argue/Desktop/Proyecto_ESD/GestionCitaDental/GestionCitaDental/GestionCitaDental/Views/Usuarios/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/argue/Desktop/PRUEBA ASP.NET/GestionCitaDental/GestionCitaDental/Views/Usuarios/Delete.cshtml]
+[C:/Users/argue/Desktop/Proyecto_ESD/GestionCitaDental/GestionCitaDental/GestionCitaDental/Views/Usuarios/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/argue/Desktop/PRUEBA ASP.NET/GestionCitaDental/GestionCitaDental/Views/Usuarios/Details.cshtml]
+[C:/Users/argue/Desktop/Proyecto_ESD/GestionCitaDental/GestionCitaDental/GestionCitaDental/Views/Usuarios/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/argue/Desktop/PRUEBA ASP.NET/GestionCitaDental/GestionCitaDental/Views/Usuarios/Edit.cshtml]
+[C:/Users/argue/Desktop/Proyecto_ESD/GestionCitaDental/GestionCitaDental/GestionCitaDental/Views/Usuarios/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/argue/Desktop/PRUEBA ASP.NET/GestionCitaDental/GestionCitaDental/Views/Usuarios/Index.cshtml]
+[C:/Users/argue/Desktop/Proyecto_ESD/GestionCitaDental/GestionCitaDental/GestionCitaDental/Views/Usuarios/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/argue/Desktop/PRUEBA ASP.NET/GestionCitaDental/GestionCitaDental/Views/_ViewImports.cshtml]
+[C:/Users/argue/Desktop/Proyecto_ESD/GestionCitaDental/GestionCitaDental/GestionCitaDental/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/argue/Desktop/PRUEBA ASP.NET/GestionCitaDental/GestionCitaDental/Views/_ViewStart.cshtml]
+[C:/Users/argue/Desktop/Proyecto_ESD/GestionCitaDental/GestionCitaDental/GestionCitaDental/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/argue/Desktop/PRUEBA ASP.NET/GestionCitaDental/GestionCitaDental/Views/Shared/_Layout.cshtml]
+[C:/Users/argue/Desktop/Proyecto_ESD/GestionCitaDental/GestionCitaDental/GestionCitaDental/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-nnbq0h2dtk

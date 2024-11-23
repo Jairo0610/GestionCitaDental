@@ -29,6 +29,11 @@
                 <span asp-validation-for="IdCorreo" class="text-danger"></span>
             </div>
             <div class="form-group">
+                <label class="control-label">DISPONIBILIDAD</label>
+                <select asp-for="IdDisponible" class="form-control" asp-items="ViewBag.IdDisponible"></select>
+                <span asp-validation-for="IdDisponible" class="text-danger"></span>
+            </div>
+            <div class="form-group">
                 <input type="submit" value="Save" class="btn btn-primary" />
             </div>
         </form>
