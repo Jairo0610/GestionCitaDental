@@ -53,7 +53,7 @@ namespace GestionCitaDental.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("IdProcedimiento,Descripcion,Costo")] TblProcedimiento tblProcedimiento)
+        public async Task<IActionResult> Create([Bind("IdProcedimiento,Descripcion,Costo,Duracion")] TblProcedimiento tblProcedimiento)
         {
             if (ModelState.IsValid)
             {
@@ -85,7 +85,7 @@ namespace GestionCitaDental.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("IdProcedimiento,Descripcion,Costo")] TblProcedimiento tblProcedimiento)
+        public async Task<IActionResult> Edit(int id, [Bind("IdProcedimiento,Descripcion,Costo,Duracion")] TblProcedimiento tblProcedimiento)
         {
             if (id != tblProcedimiento.IdProcedimiento)
             {
